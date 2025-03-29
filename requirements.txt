@@ -1,0 +1,5 @@
+Tôi muốn làm một trang web luyện ielts, bao gồm các tính năng sau:
+- luyện Đề theo module (listening, reading, writing, speaking)
+- Luyện speaking và writing có tích hợp AI 
+- web Có 3 môi trường: dev, test và pro
+Trang web tham khảo: https://youpass.vn/home
