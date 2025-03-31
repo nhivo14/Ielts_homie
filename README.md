@@ -42,6 +42,57 @@ npm install
 3. Configure Environment Variables
 Create `.env` file in server directory: 
 ```
+### Running the Application
+
+#### Backend (Server)
+1. Navigate to server directory
+```bash
+cd server
+```
+
+2. Install dependencies (if not already installed)
+```bash
+npm install
+```
+
+3. Start the server
+```bash
+npm run dev
+```
+Server will run on http://localhost:5000
+
+#### Frontend (Client)
+1. Navigate to client directory
+```bash
+cd client
+```
+
+2. Install dependencies (if not already installed)
+```bash
+npm install
+```
+
+3. Start the React application
+```bash
+npm start
+```
+Frontend will run on http://localhost:3000
+
+#### Testing the Application
+After both server and client are running:
+1. Open http://localhost:3000 in your browser
+2. You should see the IELTS Homie homepage
+3. Test registration/login functionality
+4. Navigate through different modules
+
+#### Common Issues
+- If you see `Module not found` error, try reinstalling dependencies
+- Make sure MongoDB is running locally
+- Check if all environment variables are set correctly
+- For Windows users, if you encounter script execution issues, run PowerShell as administrator and execute:
+  ```powershell
+  Set-ExecutionPolicy RemoteSigned
+  ```
 
 ## Project Structure
 cd Ielts_homie
@@ -74,3 +125,5 @@ cd Ielts_homie
 ├── .gitignore
 ├── README.md
 └── package.json
+```
+
